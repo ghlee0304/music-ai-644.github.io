@@ -105,7 +105,9 @@ author:
   name             : "Music-AI-644"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "AI Research"
-  location         : "12, Daewangpangyo-ro 644beon-gil, Bundang-gu, Seongnam-si, Gyeonggi-do, Republic of Korea"
+  location         : "12, Daewangpangyo-ro 644beon-gil,\
+                      Bundang-gu, Seongnam-si,\
+                      Gyeonggi-do, Republic of Korea"
   email            :
   links:
     - label: "Email"
