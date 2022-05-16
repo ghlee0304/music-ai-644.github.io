@@ -42,25 +42,25 @@
     - **Multi-resolution STFT auxiliary loss**
         1. STFT loss는 저자의 이전 논문에 사용되었던 loss인 spectral convergence loss와 log STFT magnitude loss를 결합한 loss가 사용되었다. 
             
-            ![Untitled.png]("/_posts/Parallel WaveGAN A fast waveform generation model based on generative adversarial networks with multi-resolution spectrogram/Untitled.png")
+            ![Untitled.png](/_figures/pwg/Untitled.png)
             
         2. spectral convergence loss 
             
-            ![#4%20Parallel%20WaveGAN%20A%20fast%20waveform%20generation%20mod%20b26e708d1b5d4340a39696700b9174ad/Untitled%201.png](#4%20Parallel%20WaveGAN%20A%20fast%20waveform%20generation%20mod%20b26e708d1b5d4340a39696700b9174ad/Untitled%201.png)
+            ![Untitled1.png](/_figures/pwg/Untitled1.png)
             
         3. log STFT magnitude loss 
             
-            ![#4%20Parallel%20WaveGAN%20A%20fast%20waveform%20generation%20mod%20b26e708d1b5d4340a39696700b9174ad/Untitled%202.png](#4%20Parallel%20WaveGAN%20A%20fast%20waveform%20generation%20mod%20b26e708d1b5d4340a39696700b9174ad/Untitled%202.png)
+            ![Untitled2.png](/_figures/pwg/Untitled2.png)
             
         4. 논문의 저자들은 다중 resolution STFT auxiliary loss 를 사용하였다. 해당 방법은 generator가 time-frequency 특징을 더 잘 학습하도록 해주었으며 오버 피팅을 막아주었다. (해당 방법은 uni wavenet에서 아이디어를 얻지 않았을까 추측해본다.)
             
-            ![#4%20Parallel%20WaveGAN%20A%20fast%20waveform%20generation%20mod%20b26e708d1b5d4340a39696700b9174ad/Untitled%203.png](#4%20Parallel%20WaveGAN%20A%20fast%20waveform%20generation%20mod%20b26e708d1b5d4340a39696700b9174ad/Untitled%203.png)
+            ![Untitled3.png](/_figures/pwg/Untitled3.png)
             
         5. 최종 loss 
             
-            ![#4%20Parallel%20WaveGAN%20A%20fast%20waveform%20generation%20mod%20b26e708d1b5d4340a39696700b9174ad/Untitled%204.png](#4%20Parallel%20WaveGAN%20A%20fast%20waveform%20generation%20mod%20b26e708d1b5d4340a39696700b9174ad/Untitled%204.png)
+            ![Untitled4.png](/_figures/pwg/Untitled4.png)
             
-            ![#4%20Parallel%20WaveGAN%20A%20fast%20waveform%20generation%20mod%20b26e708d1b5d4340a39696700b9174ad/Untitled%205.png](#4%20Parallel%20WaveGAN%20A%20fast%20waveform%20generation%20mod%20b26e708d1b5d4340a39696700b9174ad/Untitled%205.png)
+            ![Untitled5.png](/_figures/pwg/Untitled5.png)
             
 - **Experiment**
     - **Datasets**
@@ -96,10 +96,10 @@
 - **Results**
     - **System Results**
         
-        ![#4%20Parallel%20WaveGAN%20A%20fast%20waveform%20generation%20mod%20b26e708d1b5d4340a39696700b9174ad/Untitled%206.png](#4%20Parallel%20WaveGAN%20A%20fast%20waveform%20generation%20mod%20b26e708d1b5d4340a39696700b9174ad/Untitled%206.png)
+        ![Untitled6.png](/_figures/pwg/Untitled6.png)
         
     - **MOS w/ TTS**
         
-        ![#4%20Parallel%20WaveGAN%20A%20fast%20waveform%20generation%20mod%20b26e708d1b5d4340a39696700b9174ad/Untitled%207.png](#4%20Parallel%20WaveGAN%20A%20fast%20waveform%20generation%20mod%20b26e708d1b5d4340a39696700b9174ad/Untitled%207.png)
+        ![Untitled7.png](/_figures/pwg/Untitled7.png)
         
 - **Conclusion**
